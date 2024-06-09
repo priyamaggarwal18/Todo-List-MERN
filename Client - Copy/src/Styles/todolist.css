@@ -1,0 +1,124 @@
+.add-btn{
+    background-color: #4CAF50;
+    font-weight: 600;
+    font-family: gotham;
+    width: 50px;
+    height: 50px;
+    border-radius: 38px;
+    font-size: 20px;
+}
+.add-btn:hover{
+    cursor: pointer;
+}
+
+.logout{
+    background-color: #af4c4c;
+    font-family: gotham;
+    width: 100px;
+    margin-left: 10px;
+    height: 50px;
+    border-radius: 38px;
+    font-size: 20px;
+    color: white;
+}
+/* In todolist.css */
+.note.done p {
+    text-decoration: line-through;
+  }
+  
+
+.btns{
+    display:flex;
+    justify-content: space-between;
+    gap: 2px;
+    align-content: ceter;
+
+}
+
+.btn-1{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    font-family: gotham;
+}
+
+.btn-2 {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #af4c4c;
+    color: white;
+    font-family: gotham;
+}
+
+.note{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    word-wrap: break-word;
+
+}
+
+.input-container{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container p{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin: 0px;
+}
+
+.priority{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.priority_btn_grp{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.priority_btn{
+    border-radius: 50%;
+    font-family: Gotham;
+    height: 30px;
+    width: 30px;
+}
+
+.priority_btn:nth-child(1){
+    background-color: rgb(57, 121, 57);
+    color: white;
+}
+
+.priority_btn:nth-child(2){
+    background-color: yellow;
+}
+
+.priority_btn:nth-child(3){
+    background-color: rgb(152, 1, 1);
+    color: white;
+}
+
+.message_main{
+    font-size: 15px;
+    color: rgb(161, 3, 3);
+    font-weight: 600;
+}

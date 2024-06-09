@@ -1,0 +1,18 @@
+.center-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgba(185, 248, 228, 0.377);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    border-radius: 40px;
+}
+
+h1{
+    margin: 0;
+}
+
+
